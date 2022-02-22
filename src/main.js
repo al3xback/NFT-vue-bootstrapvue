@@ -7,7 +7,7 @@ import App from './App.vue';
 Vue.use(BootstrapVue);
 
 const app = new Vue({
-  render: h => h(App),
+	render: (h) => h(App),
 });
 
 app.$mount('#app');

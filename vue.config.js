@@ -8,5 +8,6 @@ module.exports = {
 			},
 		},
 	},
-	publicPath: process.env.NODE_ENV === 'production' ? '/NFT-vue-bootstrapvue/' : '/',
+	publicPath:
+		process.env.NODE_ENV === 'production' ? '/NFT-vue-bootstrapvue/' : '/',
 };

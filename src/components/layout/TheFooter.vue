@@ -9,7 +9,10 @@
 					>Frontend Mentor</b-link
 				>
 				. Coded by
-				<b-link href="https://github.com/al3xback" target="_blank" rel="noopener"
+				<b-link
+					href="https://github.com/al3xback"
+					target="_blank"
+					rel="noopener"
 					>al3xback</b-link
 				>.
 			</p>

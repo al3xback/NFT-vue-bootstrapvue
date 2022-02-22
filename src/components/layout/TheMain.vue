@@ -2,8 +2,7 @@
 	<main class="d-flex flex-fill py-4">
 		<b-container
 			fluid
-			class="d-flex flex-fill justify-content-center align-items-center"
-		>
+			class="d-flex flex-fill justify-content-center align-items-center">
 			<b-card no-body>
 				<b-card-header>
 					<div class="card__image">
@@ -13,8 +12,7 @@
 									require('@/assets/images/equilibrium.jpg')
 								"
 								fluid
-								alt=""
-							></b-img>
+								alt=""></b-img>
 						</figure>
 					</div>
 				</b-card-header>
@@ -25,12 +23,17 @@
 					<p class="card__desc">
 						Our Equilibrium collection promotes balance and calm.
 					</p>
-					<div class="card__stats d-flex justify-content-between align-items-center">
-						<div class="card__stat card__stat-value d-flex align-items-center">
-							<i class="icon-ethereum mr-2" aria-hidden="true"></i>
+					<div
+						class="card__stats d-flex justify-content-between align-items-center">
+						<div
+							class="card__stat card__stat-value d-flex align-items-center">
+							<i
+								class="icon-ethereum mr-2"
+								aria-hidden="true"></i>
 							<span>0.041 ETH</span>
 						</div>
-						<div class="card__stat card__stat-countdown d-flex align-items-center">
+						<div
+							class="card__stat card__stat-countdown d-flex align-items-center">
 							<i class="icon-clock mr-2" aria-hidden="true"></i>
 							<span>3 days left</span>
 						</div>
@@ -42,8 +45,7 @@
 							<b-avatar
 								size="33"
 								:src="require('@/assets/images/avatar.png')"
-								alt="Avatar"
-							></b-avatar>
+								alt="Avatar"></b-avatar>
 						</figure>
 						<p class="card__author-text">
 							Creation of

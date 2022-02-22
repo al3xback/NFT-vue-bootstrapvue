@@ -16,7 +16,7 @@ export default {
 	components: {
 		TheHeader,
 		TheMain,
-		TheFooter
+		TheFooter,
 	},
 };
 </script>
