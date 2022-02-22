@@ -28,6 +28,7 @@ Users should be able to:
 - Flexbox
 - Mobile-first workflow
 - Vue - JS library
+- Bootstrap-vue
 
 ## Author
 
