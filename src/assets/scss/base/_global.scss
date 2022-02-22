@@ -1,0 +1,30 @@
+body {
+	display: flex;
+	min-height: 100vh;
+    scroll-behavior: smooth;
+	text-rendering: optimizeSpeed;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+a {
+	transition: opacity 0.3s;
+}
+
+[class^='icon-'] {
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+}
+
+.icon-ethereum {
+	width: em(11);
+	height: em(18);
+	background-image: url('~@/assets/images/icons/ethereum.svg');
+}
+
+.icon-clock {
+	width: em(16);
+	height: em(16);
+	background-image: url('~@/assets/images/icons/clock.svg');
+}

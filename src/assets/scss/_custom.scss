@@ -1,0 +1,21 @@
+$body-bg: $neutral-1;
+$body-color: $primary-1;
+
+$font-family-base: $ff-primary;
+$font-size-base: 1rem;
+$font-weight-base: $fw-400;
+$line-height-base: 1.25;
+
+$h2-font-size: 1.375em;
+$headings-font-weight: $fw-600;
+$headings-line-height: 1.27;
+$headings-margin-bottom: 0.54em;
+
+$paragraph-margin-bottom: 0;
+
+$link-color: $neutral-4;
+$link-hover-color: $primary-2;
+$link-hover-decoration: none;
+
+@import '~bootstrap/scss/bootstrap.scss';
+@import '~bootstrap-vue/src/index.scss';
