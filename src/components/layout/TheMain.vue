@@ -7,15 +7,16 @@
 				<b-card-header>
 					<div class="card__image">
 						<figure>
-							<b-img
+							<b-card-img-lazy
 								:src="
 									require('@/assets/images/equilibrium.jpg')
 								"
 								fluid
-								alt=""></b-img>
+								alt=""></b-card-img-lazy>
 						</figure>
 					</div>
 				</b-card-header>
+
 				<b-card-body>
 					<h2 class="card__title">
 						<b-link>Equilibrium #3429</b-link>
@@ -23,25 +24,28 @@
 					<p class="card__desc">
 						Our Equilibrium collection promotes balance and calm.
 					</p>
-					<div
-						class="card__stats d-flex justify-content-between align-items-center">
-						<div
-							class="card__stat card__stat-value d-flex align-items-center">
+					<b-row align-v="center" class="card__stats">
+						<b-col
+							class="card__stat-value d-flex align-items-center">
 							<i
-								class="icon-ethereum mr-2"
+								class="icon-ethereum flex-shrink-0 mr-2"
 								aria-hidden="true"></i>
 							<span>0.041 ETH</span>
-						</div>
-						<div
-							class="card__stat card__stat-countdown d-flex align-items-center">
-							<i class="icon-clock mr-2" aria-hidden="true"></i>
+						</b-col>
+						<b-col
+							class="card__stat-countdown d-flex justify-content-end align-items-center">
+							<i
+								class="icon-clock flex-shrink-0 mr-2"
+								aria-hidden="true"></i>
 							<span>3 days left</span>
-						</div>
-					</div>
+						</b-col>
+					</b-row>
 				</b-card-body>
+
 				<b-card-footer>
-					<div class="card__author d-flex align-items-center">
-						<figure class="card__author-avatar">
+					<b-row no-gutters align-v="center" class="card__author">
+						<figure
+							class="card__author-avatar flex-shrink-0 mb-0 mr-3">
 							<b-avatar
 								size="33"
 								:src="require('@/assets/images/avatar.png')"
@@ -51,7 +55,7 @@
 							Creation of
 							<b-link>Jules Wyvern</b-link>
 						</p>
-					</div>
+					</b-row>
 				</b-card-footer>
 			</b-card>
 		</b-container>
@@ -131,11 +135,6 @@
 	font-size: em(15);
 }
 
-.card__stat {
-	display: flex;
-	align-items: center;
-}
-
 .card__stat-value {
 	font-weight: $fw-600;
 	color: $primary-2;
@@ -143,12 +142,6 @@
 
 .card__author {
 	font-size: em(16);
-}
-
-.card__author-avatar {
-	flex-shrink: 0;
-	margin-right: em(16);
-	margin-bottom: 0;
 }
 
 .card__author-text {
